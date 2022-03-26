@@ -16,4 +16,6 @@ int main() {
             write_color(std::cout, pixel_color);
         }
     }
+
+    std::cerr << "\nDone\n";
 }

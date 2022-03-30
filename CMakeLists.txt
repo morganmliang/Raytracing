@@ -8,9 +8,9 @@ project ( RTWeekend
 set ( CMAKE_CXX_STANDARD 11 )
 
 set ( SOURCE_ONE_WEEKEND 
-    src/main.cc
+    src/ray.h
     src/vec3.h
-    src/color.h
+    src/main.cc
 )
 
 add_executable(inOneWeekend ${SOURCE_ONE_WEEKEND})
